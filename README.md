@@ -22,7 +22,6 @@ where you have to provide a properties file with the following structure:
 | -DateFrom    | The initial timestamp to match the query                 |
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
-
 |  Properties input file: German Elections from 2004 to 2013              |
 | field        | value                                                    |
 |--------------|----------------------------------------------------------|
