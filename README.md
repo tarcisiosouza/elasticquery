@@ -25,11 +25,14 @@ where you have to provide a properties file with the following structure:
 
 
 e.g.
-Properties File:
-dateFrom=2004/01/01 21:12:15
-dateTo=2013/12/31 22:12:15
-keywords=bundestagswahl merkel
-limit=20
+|  Properties input file: German Elections from 2004 to 2013              |
+| field        | value                                                    |
+|--------------|----------------------------------------------------------|
+| -query terms | bundestagswahl merkel                                    |
+| -DateFrom    | 2004/01/01 21:12:15                                      |
+| -DateTo      | 2013/12/31 22:12:15                                      |
+| -limit       | 20                                                       |
+
     hadoop jar elasticquery-0.0.1-SNAPSHOT-job.jar elections2004_2013.properties output.txt
 
 ## Output format
