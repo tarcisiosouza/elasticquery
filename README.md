@@ -23,9 +23,6 @@ where you have to provide a properties file with the following structure:
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
 
-
-e.g.
-
 |  Properties input file: German Elections from 2004 to 2013              |
 | field        | value                                                    |
 |--------------|----------------------------------------------------------|
@@ -33,6 +30,10 @@ e.g.
 | -DateFrom    | 2004/01/01 21:12:15                                      |
 | -DateTo      | 2013/12/31 22:12:15                                      |
 | -limit       | 20                                                       |
+
+e.g.
+
+
 
     hadoop jar elasticquery-0.0.1-SNAPSHOT-job.jar elections2004_2013.properties output.txt
 
