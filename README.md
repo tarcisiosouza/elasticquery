@@ -22,16 +22,13 @@ where you have to provide a properties file with the following structure:
 | -DateFrom    | The initial timestamp to match the query                 |
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
-
+as follows:
 | argument     | description                                              |
-|              |                                                          |
 |--------------|----------------------------------------------------------|
-| -query terms | The terms you want to find in URLs with or without quotes|
+| -query terms | bundestagswahl merkel                                    |
 | -DateFrom    | The initial timestamp to match the query                 |
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
-
-
 execute:
 
     hadoop jar elasticquery-0.0.1-SNAPSHOT-job.jar elections2004_2013.properties output.txt
