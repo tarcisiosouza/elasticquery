@@ -42,8 +42,7 @@ the following fields:
 |---------|------------------------------------------------------|
 |orig     | The URL which contains query terms                   |
 |ts       | timestamp matched in the query 					     |
-|filename | Redirect URL                                         |
-|file     | Filename                                             |
-|offset   | -                                                    |
-|orig     |                                                      |
+|filename | The WARC file name which contains the HTML content   |
+|offset   | -----------------------------------------------------|
+|redirect | Redirect URL or '-' when it does not exist           |
 
