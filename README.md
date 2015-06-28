@@ -22,7 +22,7 @@ where you have to provide a properties file with the following structure:
 | -DateFrom    | The initial timestamp to match the query                 |
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
-as follows:
+
 | argument     | description                                              |
 |--------------|----------------------------------------------------------|
 | -query terms | bundestagswahl merkel                                    |
