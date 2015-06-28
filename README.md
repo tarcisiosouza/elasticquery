@@ -25,6 +25,7 @@ where you have to provide a properties file with the following structure:
 
 
 e.g.
+
 |  Properties input file: German Elections from 2004 to 2013              |
 | field        | value                                                    |
 |--------------|----------------------------------------------------------|
