@@ -23,7 +23,7 @@ where you have to provide a properties file with the following structure:
 | -DateTo      | The final timestamp                                      |
 | -limit       | The limit of the query (total of documents in the output)|
 
-| argument     | description                                              |
+|  Properties input file: German Elections from 2004 to 2013              |
 |--------------|----------------------------------------------------------|
 | -query terms | The terms you want to find in URLs with or without quotes|
 | -DateFrom    | The initial timestamp to match the query                 |
