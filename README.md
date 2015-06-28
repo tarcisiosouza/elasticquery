@@ -35,16 +35,15 @@ execute:
 
 ## Output format
 
-The Output file contains JSON records per each line and each JSON document with
+The Output file contains text records per each line and each line with
 the following fields:
 
-| field | description                                          |
-|-------|------------------------------------------------------|
-|ts     | timestamp matched in the query 											 |
-|id     | ts + original url                                    |
-|comp   | compressedsize                                       |
-|redir  | Redirect URL                                         |
-|file   | Filename                                             |
-|offset | -                                                    |
-|orig   | The URL which contains query terms                   |
+| field   | description                                          |
+|---------|------------------------------------------------------|
+|orig     | The URL which contains query terms                   |
+|ts       | timestamp matched in the query 					     |
+|filename | Redirect URL                                         |
+|file     | Filename                                             |
+|offset   | -                                                    |
+|orig     |                                                      |
 
