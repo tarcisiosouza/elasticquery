@@ -24,6 +24,7 @@ where you have to provide a properties file with the following structure:
 | -limit       | The limit of the query (total of documents in the output)|
 
 | argument     | description                                              |
+|              |                                                          |
 |--------------|----------------------------------------------------------|
 | -query terms | The terms you want to find in URLs with or without quotes|
 | -DateFrom    | The initial timestamp to match the query                 |
