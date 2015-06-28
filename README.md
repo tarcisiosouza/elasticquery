@@ -25,15 +25,12 @@ where you have to provide a properties file with the following structure:
 
 |  Properties input file: German Elections from 2004 to 2013              |
 |--------------|----------------------------------------------------------|
-| field        | value                                                    |
+| argument     | value                                                    |
 |--------------|----------------------------------------------------------|
 | -query terms | bundestagswahl merkel                                    |
 | -DateFrom    | 2004/01/01 21:12:15                                      |
 | -DateTo      | 2013/12/31 22:12:15                                      |
 | -limit       | 20                                                       |
-
-
-|  Properties input file: German Elections from 2004 to 2013              |
 
 
 execute:
